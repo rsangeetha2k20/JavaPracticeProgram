@@ -1,0 +1,14 @@
+package com.learning;
+
+public class Strong {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n=145;
+		Strong sg = new Strong();
+ 
+		
+
+	}
+
+}

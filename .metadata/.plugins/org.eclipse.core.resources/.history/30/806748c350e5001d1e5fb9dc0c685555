@@ -1,0 +1,31 @@
+package com.learning;
+
+public class Spy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    Spy s=new Spy();
+    int no=1124;
+    int sum=s.sum(no);
+    int mul=s.mul(no);
+    if (sum==mul) {
+    	System.out.println("spy Number");
+    }
+    	else
+    	{
+    	   System.out.println("Not a spy Number");   		
+    }  
+	}
+
+	private int mul(int no) {
+		// TODO Auto-generated method stub
+		int mul=1;
+		return 0;
+	}
+
+	private int sum(int no) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

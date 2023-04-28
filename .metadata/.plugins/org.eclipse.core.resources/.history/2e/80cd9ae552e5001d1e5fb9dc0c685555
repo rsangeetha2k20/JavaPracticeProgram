@@ -1,0 +1,47 @@
+package com.learning;
+
+public class Spy {  //1142--> 1+1+4+2=1*1*4*2=8  is called spy number
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    Spy s=new Spy();
+    int no=1124;
+    int sum=s.sum(no);
+    int pro=s.pro(no);
+    if (sum==pro) {
+    	System.out.println("spy Number");
+    }
+    	else
+    	{
+    	   System.out.println("Not a spy Number");   		
+    }  
+	}
+
+	private int pro(int no) {
+		// TODO Auto-generated method stub
+		int pro=1;
+		while(no>0)  
+		{
+			int d=no%10;
+			pro=pro*d;
+			no=no/10;
+		}
+		return pro;
+	}
+
+
+	private int sum(int no) {
+		// TODO Auto-generated method stub
+		int sum=0;
+		{
+			while(no>0) 
+			{
+				int d=no%10;
+				sum=sum+d;
+				no=no/10;
+			}
+			return sum;
+			}
+	}
+}
+		
